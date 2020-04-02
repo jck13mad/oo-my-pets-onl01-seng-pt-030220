@@ -46,9 +46,11 @@ class Owner
     self.dogs.each do {|doge| doge.mood = "happy"}
   end
   
-  def play_with_cats
+  def feed_cats
     self.cats.each do {|cate| cate.mood = "happy"}
   end
+  
+  
   
   def self.reset_all
     @@all.clear
