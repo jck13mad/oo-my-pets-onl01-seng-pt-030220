@@ -14,6 +14,10 @@ class Owner
     "I am a #{self.species}"
   end
   
+  def self.all
+    @@all
+  end
+  
   
   def pets
     @@pets = pets
@@ -37,10 +41,6 @@ class Owner
     @@pets[:cats].each do |cat|
       cat.mood = "happy"
     end
-  end
-  
-  def self.all
-    @@all
   end
   
   def self.reset_all
