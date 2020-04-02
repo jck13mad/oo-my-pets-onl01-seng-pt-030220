@@ -40,7 +40,7 @@ class Owner
     @@all
   end
   
-  def self.species()
+  def self.species
   
   def self.reset_all
     @@all.clear
