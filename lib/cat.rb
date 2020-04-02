@@ -12,5 +12,7 @@ class Cat
     @@all_cats << self
   end
   
+  def 
+  
   
 end
