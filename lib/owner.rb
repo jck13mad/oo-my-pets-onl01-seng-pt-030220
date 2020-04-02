@@ -22,7 +22,9 @@ class Owner
     self.all.length
   end
   
-  def cats()
+  def cats
+    
+  end
   
   def buy_cat(cat)
     @@pets[:cats] << Cat.new(cat)
