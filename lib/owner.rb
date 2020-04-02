@@ -24,6 +24,7 @@ class Owner
   
   def cats
     Cat.all.select do |kitties|
+      kitties.owner = self
   end
   
   def buy_cat(cat)
