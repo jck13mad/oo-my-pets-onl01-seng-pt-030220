@@ -40,11 +40,6 @@ class Owner
     @@all
   end
   
-  def self.species
-    @species = "human"
-    @species
-  end
-  
   def self.reset_all
     @@all.clear
   end
