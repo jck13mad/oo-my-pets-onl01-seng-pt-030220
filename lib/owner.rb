@@ -54,6 +54,8 @@ class Owner
     pets = self.cats.push(*self.dogs)
     
     pets.each do |pet|
+      pet.mood = "nervous"
+      
   end
   
   def self.reset_all
