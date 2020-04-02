@@ -43,11 +43,15 @@ class Owner
   end
   
   def walk_dogs
-    self.dogs.each do {|doge| doge.mood = "happy"}
+    self.dogs.each do |doge|
+      doge.mood = "happy"
+    end
   end
   
   def feed_cats
-    self.cats.each do {|cate| cate.mood = "happy"}
+    self.cats.each do |cate| 
+      cate.mood = "happy"
+    end
   end
   
   def sell_pets
