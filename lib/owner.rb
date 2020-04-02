@@ -59,16 +59,8 @@ class Owner
     end
   end
   
-  def self.reset_all
-    @@all.clear
-  end
-  
-  def self.count
-    @@all.size 
-  end
-  
   def list_pets
-    "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)."
+    "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
   end
   
   
