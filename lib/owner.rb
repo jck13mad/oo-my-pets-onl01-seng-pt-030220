@@ -52,6 +52,8 @@ class Owner
   
   def sell_pets
     pets = self.cats.push(*self.dogs)
+    
+    
   end
   
   def self.reset_all
