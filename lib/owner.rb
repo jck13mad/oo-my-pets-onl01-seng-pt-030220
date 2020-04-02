@@ -11,6 +11,9 @@ class Owner
     @@all << self
   end
   
+  def say_species
+    @species
+  
   def pets
     @@pets = pets
   end
