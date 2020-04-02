@@ -50,7 +50,7 @@ class Owner
     self.cats.each do {|cate| cate.mood = "happy"}
   end
   
-  
+  def sell_pets
   
   def self.reset_all
     @@all.clear
