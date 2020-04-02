@@ -23,7 +23,7 @@ class Owner
   end
   
   def cats
-    
+    Cat.all.select
   end
   
   def buy_cat(cat)
