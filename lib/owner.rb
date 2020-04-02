@@ -13,6 +13,8 @@ class Owner
   
   def say_species
     "I am a #{self.species}"
+  end
+  
   
   def pets
     @@pets = pets
