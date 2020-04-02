@@ -13,25 +13,25 @@ class Owner
   end
   
   def pets
-    @pets = pets
+    @@pets = pets
   end
   
   def buy_cat(cat)
-    @pets[:cats] << Cat.new(cat)
+    @@pets[:cats] << Cat.new(cat)
   end
   
   def buy_dog(dog)
-    @pets[:dog] << Dog.new(dog)
+    @@pets[:dog] << Dog.new(dog)
   end
   
   def walk_dogs
-    @pets[:dogs].each do |dog|
+    @@pets[:dogs].each do |dog|
       dog.mood = "happy"
     end
   end
   
   def play_with_cats
-    @pets[:cats].each do |cat|
+    @@pets[:cats].each do |cat|
       cat.mood = "happy"
     end
   end
