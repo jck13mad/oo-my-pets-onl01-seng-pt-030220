@@ -1,6 +1,6 @@
 class Cat
   # code goes here
-  attr_accessor :mood
+  attr_accessor :
   attr_reader :owner, :name
   
   def initialize(name, owner)
