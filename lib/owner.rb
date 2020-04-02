@@ -19,7 +19,8 @@ class Owner
   end
   
   def self.count
-    
+    self.all.length
+  end
   
   def buy_cat(cat)
     @@pets[:cats] << Cat.new(cat)
