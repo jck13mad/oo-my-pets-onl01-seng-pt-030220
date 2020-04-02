@@ -53,7 +53,7 @@ class Owner
   def sell_pets
     pets = self.cats.push(*self.dogs)
     
-    pets.each do 
+    pets.each do |pet|
   end
   
   def self.reset_all
