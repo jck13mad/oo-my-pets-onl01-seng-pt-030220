@@ -44,14 +44,10 @@ class Owner
   
   def walk_dogs
     self.dogs.each do {|doge| doge.mood = "happy"}
-      dog.mood = "happy"
-    end
   end
   
   def play_with_cats
-    @@pets[:cats].each do |cat|
-      cat.mood = "happy"
-    end
+    self.cats.each do {|cate| cate.mood = "happy"}
   end
   
   def self.reset_all
